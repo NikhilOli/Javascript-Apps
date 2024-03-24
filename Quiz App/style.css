@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Geologica:wght@300;400;500;600;700&family=Playfair+Display&family=Roboto&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+.main {
+    font-family: 'Alata', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74b9ff;
+  
+}
+#box {
+    width: 40%;
+    background-color: #dfe6e9;
+    padding: 5px;
+    border-radius: 5px;
+}
+.row {
+    margin: 1rem;
+    margin-left: 0;
+}
+.btn {
+    width: 100%;
+    background-color: #2d3436;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 1.2rem;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 0.8rem;
+}
+.btn:hover {
+    background-color: #636e72;
+}

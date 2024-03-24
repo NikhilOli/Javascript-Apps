@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Trial Period</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    let date = new Date(2023, 9, 23, 1, 9, 30, 7)
+
+   let run = printtext = () => {
+        console.log("Nikhil", date);
+    }
+    document.getElementById("start").addEventListener("click", () => { setInterval(run, 1000) })
+    document.getElementById("stop").addEventListener("click", function () {
+        clearInterval(run)
+    }) 
+</script>
+
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Cedarville+Cursive&family=Geologica:wght@300;400;500;600;700&family=Noto+Sans:wght@500&family=Playfair+Display&family=Roboto&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+
+}
+
+.container {
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.groceries {
+    text-align: center;
+    height: 100vh;
+    background: #FCB07E;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+h1 {
+    margin-top: 15px;
+    text-align: center;
+    background: #DEE2D6;
+    font-family: inherit;
+}
+
+.groceries i {
+    font-size: 2rem;
+    color: #330F0A;
+}
+
+#userInput {
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid;
+}
+
+.write {
+    margin-top: 10px;
+}
+
+#allItems h2 {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}

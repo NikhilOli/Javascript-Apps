@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="first">
+    <select name="" id="ope">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="second">
+    <button onclick="calc()">Calculate</button>
+    <input type="number" name="" id="result" readonly>
+</body>
+<script>
+    let v1 = document.getElementById('first').value
+    let v2 = document.getElementById('second').value
+    let result = document.getElementById('result').value
+    let ope = document.getElementById('ope').value
+    function calc() {
+        alert(ope)
+        let exp = parseInt(v1) + parent(ope) + parseInt(v2);
+        eval(exp);
+        result.value = exp;
+    }
+</script>
+</html>

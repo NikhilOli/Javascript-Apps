@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter';
+}
+body {
+    background-color: #F9DEC9;
+    font-size: 24px;
+}
+.main {
+    width: 95%;
+    margin: 1.5% auto;
+}
+.container1 {
+    margin-left: 5%;
+}
+button {
+    background-color: green;
+    padding: 5px;
+    width: fit-content;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover {
+    background: rgba(4, 155, 4, 0.729);
+}
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+#container3{
+    position: absolute;
+    top: 26%;
+    left: 40%;
+    /* display: none; */
+}
+textarea {
+    border: none;
+    outline: none;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.7);
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px  25px;
+}
+i {
+    color: gray;
+    cursor: pointer;
+}
+.checkIcon {
+    position: absolute;
+    right: 17%;
+    top: 4%;
+}
+.checkIcon:hover{
+    transform: scale(1.1);
+}
+.xIcon {
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
+.xIcon:hover{
+    transform: scale(1.1);
+}
+.note {
+    height: 275px;
+    width: 275px;
+    margin-top: 10px;
+
+}

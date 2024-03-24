@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.container {
+    background: url(Naruto\ Free\ Wallpaper\ HD\ 4K\ by\ BlazingfrostGFX\ on.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.title {
+    margin-top: 15px;
+    font-size: 2.5rem;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+input {
+    height: 50px;
+    width: 70px;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: rgb(231, 135, 26);
+    color: rgb(244, 244, 249);
+}
+
+.inputs div {
+    width: 230px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

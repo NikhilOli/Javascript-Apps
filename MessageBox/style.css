@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Geologica:wght@300;400;500;600;700&family=Noto+Sans:wght@500&family=Playfair+Display&family=Roboto&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+
+* {
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Alata', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00a8ff;
+}
+.container {
+    background-color: #f5f6fa;
+    width: 600px;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+h4{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+form input {
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #9c88ff;
+    
+}
+form input.box {
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 0 10px;
+
+
+}
+.btn {
+    padding: 4px 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #0fbcf9;
+    color: #fbfdff;
+    cursor: pointer;
+
+}
+.alert {
+    margin: 10px 0px;
+    background-color: #fe90a8;
+    color: #1e272e;
+    padding: 5px 20px;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    font-weight: 300;
+    display: none;
+}
+.content {
+    color: #0be881;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Cedarville+Cursive&family=Fredoka&family=Geologica:wght@300;400;500;600;700&family=Noto+Sans:wght@500&family=Playfair+Display&family=Roboto&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+
+}
+body {
+    background-color: #BBC8CA;
+}
+.container {
+    width: 95%;
+    margin: 20px auto;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 25px;
+    align-items: center;
+    color: #9C7178;
+}
+h1 {
+    font-size: 3rem;
+}
+.user-input {
+    /* border: 2px solid black; */
+    width: 400px;
+    text-align: center ;
+}
+.user-input input {
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 80%;
+    border: 1px #B592A0;
+    outline: none;
+}
+user-input input:focus {
+    border: 2px #9C7178;
+    box-shadow: 0 0 5px #9C7178;
+}
+.user-input button {
+    padding: 8px;
+    cursor: pointer;
+    width: fit-content;
+    background-color: rgba(202, 178, 187, 0.8);
+    border: none;
+    color: lightcyan;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.user-input button:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.to-do-items {
+    width: 500px;
+    margin: auto;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    border-radius: 2px;
+    padding: 16px;
+    color: #BBC8CA;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background: #7D8570;
+}
+.item:hover {
+    border: 1px solid #9C7178;
+}
+.item i {
+    cursor: pointer;
+    margin: 0 5px;
+}
