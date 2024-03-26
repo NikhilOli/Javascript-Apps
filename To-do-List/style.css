@@ -7,13 +7,16 @@
     font-family: 'Alata', sans-serif;
 
 }
+
 body {
     background-color: #BBC8CA;
 }
+
 .container {
     width: 95%;
     margin: 20px auto;
 }
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -23,14 +26,19 @@ body {
     align-items: center;
     color: #9C7178;
 }
+
 h1 {
     font-size: 3rem;
 }
+
 .user-input {
     /* border: 2px solid black; */
     width: 400px;
-    text-align: center ;
+    text-align: center;
+    display: flex;
+
 }
+
 .user-input input {
     padding: 8px;
     border-top-left-radius: 5px;
@@ -38,23 +46,28 @@ h1 {
     width: 80%;
     border: 1px #B592A0;
     outline: none;
+    font-size: 16px;
 }
+
 user-input input:focus {
     border: 2px #9C7178;
     box-shadow: 0 0 5px #9C7178;
 }
+
 .user-input button {
     padding: 8px;
     cursor: pointer;
+    font-size: 16px;
     width: fit-content;
     background-color: rgba(202, 178, 187, 0.8);
     border: none;
-    color: lightcyan;
+    color: black;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
 .user-input button:hover {
-    background-color: transparent;
+    background-color: rgb(171, 143, 153);
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -62,6 +75,7 @@ user-input input:focus {
     width: 500px;
     margin: auto;
 }
+
 .item {
     display: flex;
     justify-content: space-between;
@@ -76,10 +90,16 @@ user-input input:focus {
     color: whitesmoke;
     background: #7D8570;
 }
+
 .item:hover {
     border: 1px solid #9C7178;
 }
+
 .item i {
     cursor: pointer;
     margin: 0 5px;
+}
+
+.checked {
+    color: limegreen;
 }
