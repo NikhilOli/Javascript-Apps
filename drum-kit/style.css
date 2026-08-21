@@ -1,0 +1,56 @@
+
+
+html {
+  font-size: 10px;
+  background-color: #71cbff;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.key {
+    background: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-width: 70px;
+    justify-content: center;
+    gap: 10px;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid brown;
+    border-radius: 10px;
+    transition: all .1s ease;
+}
+.key kbd {
+    font-size: 2em;
+    color: fuchsia;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #71cbff;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
